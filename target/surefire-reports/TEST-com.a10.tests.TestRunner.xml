@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.a10.tests.TestRunner" time="86.249" tests="40" errors="0" skipped="0" failures="12">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Kuliah\Semester 6\swaglabs-automated-testing\target\test-classes;D:\Kuliah\Semester 6\swaglabs-automated-testing\target\classes;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\ridsh\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\ridsh\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\ridsh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\ridsh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ridsh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ridsh\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ridsh\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ridsh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ridsh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ridsh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ridsh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ridsh\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ridsh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ridsh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ridsh\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ridsh\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ridsh\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ridsh\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\ridsh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ridsh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ridsh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ridsh\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ridsh\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\ridsh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ridsh\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\ridsh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ridsh\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ridsh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ridsh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ridsh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ridsh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.0\selenium-http-4.1.0.jar;C:\Users\ridsh\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\ridsh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\ridsh\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ridsh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ridsh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ridsh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ridsh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ridsh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ridsh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ridsh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\ridsh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ridsh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ridsh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ridsh\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\ridsh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-172\bin"/>
+    <property name="sun.java.command" value="C:\Users\ridsh\AppData\Local\Temp\surefire11540376962270262461\surefirebooter2468916637853483724.jar C:\Users\ridsh\AppData\Local\Temp\surefire11540376962270262461 2024-06-01T18-13-00_995-jvmRun1 surefire9897582129168274660tmp surefire_08968310544301778164tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Kuliah\Semester 6\swaglabs-automated-testing\target\test-classes;D:\Kuliah\Semester 6\swaglabs-automated-testing\target\classes;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\ridsh\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\ridsh\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\ridsh\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\ridsh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ridsh\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\ridsh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ridsh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ridsh\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ridsh\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ridsh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ridsh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ridsh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ridsh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ridsh\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ridsh\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ridsh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ridsh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ridsh\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ridsh\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ridsh\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ridsh\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\ridsh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ridsh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ridsh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ridsh\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ridsh\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\ridsh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\ridsh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\ridsh\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ridsh\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\ridsh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ridsh\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ridsh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ridsh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ridsh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ridsh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ridsh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.0\selenium-http-4.1.0.jar;C:\Users\ridsh\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\ridsh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\ridsh\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\ridsh\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ridsh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ridsh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ridsh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ridsh\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ridsh\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ridsh\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ridsh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\ridsh\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\ridsh\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ridsh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ridsh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ridsh\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\ridsh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ridsh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ridsh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-172"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Kuliah\Semester 6\swaglabs-automated-testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ridsh\AppData\Local\Temp\surefire11540376962270262461\surefirebooter2468916637853483724.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="Kritzeln"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ridsh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ridsh\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="D:\Kuliah\Semester 6\swaglabs-automated-testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-172\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files (x86)\dotnet;C:\Sakai\maven\bin;C:\Sakai\tomcat\bin;D:\Kuliah\Semester 4\Neo4J\bin;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Gradle\bin;C:\Gradle\gradle-8.7\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Maven\bin;C:\Program Files (x86)\ZeroTier\One\;C:\Users\ridsh\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\ridsh\AppData\Local\Programs\Python\Python311\;C:\Users\ridsh\AppData\Local\Microsoft\WindowsApps;C:\Users\ridsh\AppData\Local\GitHubDesktop\bin;C:\ghcup\bin;C:\Users\ridsh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ridsh\AppData\Local\spicetify;C:\Users\ridsh\AppData\Local\Microsoft\WindowsApps;C:\Users\ridsh\AppData\Local\Programs\mongosh\;C:\Users\ridsh\.dotnet\tools;C:\Users\ridsh\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="[TC 1] Missing APP_ID header" classname="API TEST - CREATE" time="14.571"/>
+  <testcase name="[TC 2] Invalid APP_ID header" classname="API TEST - CREATE" time="0.369"/>
+  <testcase name="[TC 3] Valid request with correct APP_ID" classname="API TEST - CREATE" time="0.425"/>
+  <testcase name="[TC 14] Missing firstName in request body" classname="API TEST - CREATE" time="0.371"/>
+  <testcase name="[TC 5] Missing lastName in request body" classname="API TEST - CREATE" time="0.366"/>
+  <testcase name="Missing APP_ID header" classname="API TEST - DELETE" time="0.232">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <404>.
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Missing APP_ID header                                              &amp#27;[90m# src/test/resources/a10/APIdeleteTest.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe DELETE header &amp#27;[0m&amp#27;[32m&amp#27;[1m"app-id"&amp#27;[0m&amp#27;[32m is &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                     &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe DELETE request user ID is &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m               &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETERequestUserIDIs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI make a DELETE request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m                 &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.iMakeADELETERequestTo(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe DELETE status code should be &amp#27;[0m&amp#27;[31m&amp#27;[1m403&amp#27;[0m                                  &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEStatusCodeShouldBe(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <403> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.API.APIdeleteTestSteps.theDELETEStatusCodeShouldBe(APIdeleteTestSteps.java:57)
+	at âœ½.the DELETE status code should be 403(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/APIdeleteTest.feature:7)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe DELETE response should contain &amp#27;[0m&amp#27;[36m&amp#27;[1m"error"&amp#27;[0m&amp#27;[36m with value &amp#27;[0m&amp#27;[36m&amp#27;[1m"APP_ID_MISSING"&amp#27;[0m &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Invalid APP_ID header" classname="API TEST - DELETE" time="0.2">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <404>.
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Invalid APP_ID header                                                &amp#27;[90m# src/test/resources/a10/APIdeleteTest.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe DELETE header &amp#27;[0m&amp#27;[32m&amp#27;[1m"app-id"&amp#27;[0m&amp#27;[32m is &amp#27;[0m&amp#27;[32m&amp#27;[1m"663765958f1bd4014ac31abc"&amp#27;[0m               &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe DELETE request user ID is &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m                 &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETERequestUserIDIs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI make a DELETE request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m                   &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.iMakeADELETERequestTo(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe DELETE status code should be &amp#27;[0m&amp#27;[31m&amp#27;[1m403&amp#27;[0m                                    &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEStatusCodeShouldBe(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <403> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.API.APIdeleteTestSteps.theDELETEStatusCodeShouldBe(APIdeleteTestSteps.java:57)
+	at âœ½.the DELETE status code should be 403(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/APIdeleteTest.feature:14)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe DELETE response should contain &amp#27;[0m&amp#27;[36m&amp#27;[1m"error"&amp#27;[0m&amp#27;[36m with value &amp#27;[0m&amp#27;[36m&amp#27;[1m"APP_ID_NOT_EXIST"&amp#27;[0m &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Valid request with correct APP_ID" classname="API TEST - DELETE" time="0.199">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Valid request with correct APP_ID                                         &amp#27;[90m# src/test/resources/a10/APIdeleteTest.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe DELETE header &amp#27;[0m&amp#27;[32m&amp#27;[1m"app-id"&amp#27;[0m&amp#27;[32m is &amp#27;[0m&amp#27;[32m&amp#27;[1m"665acdd5b842089f2e37b051"&amp#27;[0m                    &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe DELETE request user ID is &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m                      &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETERequestUserIDIs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI make a DELETE request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m                        &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.iMakeADELETERequestTo(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe DELETE status code should be &amp#27;[0m&amp#27;[31m&amp#27;[1m200&amp#27;[0m                                         &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEStatusCodeShouldBe(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.API.APIdeleteTestSteps.theDELETEStatusCodeShouldBe(APIdeleteTestSteps.java:57)
+	at âœ½.the DELETE status code should be 200(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/APIdeleteTest.feature:21)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe DELETE response should contain &amp#27;[0m&amp#27;[36m&amp#27;[1m"id"&amp#27;[0m&amp#27;[36m with value &amp#27;[0m&amp#27;[36m&amp#27;[1m"60d0fe4f5311236168a109fb"&amp#27;[0m &amp#27;[90m# com.a10.steps.API.APIdeleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User ID does not exist" classname="API TEST - DELETE" time="0.336"/>
+  <testcase name="Invalid User ID format" classname="API TEST - DELETE" time="0.348"/>
+  <testcase name="[TC 1] Missing APP_ID header" classname="API TEST - GET" time="0.335"/>
+  <testcase name="[TC 2] Invalid APP_ID header" classname="API TEST - GET" time="0.33"/>
+  <testcase name="[TC 3] Valid request with correct APP_ID" classname="API TEST - GET" time="0.389"/>
+  <testcase name="[TC 4] User ID not found" classname="API TEST - GET" time="0.112"/>
+  <testcase name="[TC 5] Invalid User ID" classname="API TEST - GET" time="0.339"/>
+  <testcase name="Missing APP_ID header" classname="API TEST - PUT" time="0.348"/>
+  <testcase name="Invalid APP_ID header" classname="API TEST - PUT" time="0.324"/>
+  <testcase name="Valid request with correct APP_ID" classname="API TEST - PUT" time="0.398"/>
+  <testcase name="Valid request with full update" classname="API TEST - PUT" time="0.377"/>
+  <testcase name="Invalid request with incorrect gender type" classname="API TEST - PUT" time="0.355">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Invalid request with incorrect gender type                      &amp#27;[90m# src/test/resources/a10/APIputTest.feature:98&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe PUT header &amp#27;[0m&amp#27;[32m&amp#27;[1m"app-id"&amp#27;[0m&amp#27;[32m is &amp#27;[0m&amp#27;[32m&amp#27;[1m"6635747e0de1363eba89ff1f"&amp#27;[0m             &amp#27;[90m# com.a10.steps.API.APIputTestSteps.thePUTHeaderIs(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe PUT request body is&amp#27;[0m                                             &amp#27;[90m# com.a10.steps.API.APIputTestSteps.thePUTRequestBodyIs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI make a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"60d0fe4f5311236168a109ff"&amp#27;[0m                 &amp#27;[90m# com.a10.steps.API.APIputTestSteps.iMakeAPUTRequestTo(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe PUT status code should be &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m                                  &amp#27;[90m# com.a10.steps.API.APIputTestSteps.thePUTStatusCodeShouldBe(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at jdk.internal.reflect.GeneratedMethodAccessor126.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor234.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.API.APIputTestSteps.thePUTStatusCodeShouldBe(APIputTestSteps.java:38)
+	at âœ½.the PUT status code should be 400(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/APIputTest.feature:107)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe PUT response should contain &amp#27;[0m&amp#27;[36m&amp#27;[1m"error"&amp#27;[0m&amp#27;[36m with value &amp#27;[0m&amp#27;[36m&amp#27;[1m"BODY_NOT_VALID"&amp#27;[0m &amp#27;[90m# com.a10.steps.API.APIputTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Go to cart then continue shopping #1" classname="AUTOMATION TEST - Cart Testing" time="4.094"/>
+  <testcase name="Go to cart then continue shopping #2" classname="AUTOMATION TEST - Cart Testing" time="2.965"/>
+  <testcase name="Go to cart then checkout with nothing cuz im broke fr fr" classname="AUTOMATION TEST - Cart Testing" time="12.324">
+    <failure message="It dont gotta show up dawg" type="java.lang.AssertionError">java.lang.AssertionError: It dont gotta show up dawg
+</failure>
+    <system-out><![CDATA[
+@homePage
+Scenario: Go to cart then checkout with nothing cuz im broke fr fr     &amp#27;[90m# src/test/resources/a10/CartTest.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                         &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                         &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi go to cart&amp#27;[0m                                                     &amp#27;[90m# com.a10.steps.Automation.EtoESteps.go_to_cart()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mi check if i really dont got that dawg in me&amp#27;[0m                    &amp#27;[90m# com.a10.steps.Automation.CartTestSteps.IYKYK2()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: It dont gotta show up dawg
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.a10.steps.Automation.CartTestSteps.IYKYK2(CartTestSteps.java:66)
+	at âœ½.i check if i really dont got that dawg in me(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/CartTest.feature:30)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 56682
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:13:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:13:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:13:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:13:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Go to cart then continue shopping #1" classname="AUTOMATION TEST - Checkout Testing" time="2.956">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[
+@homePage
+Scenario: Go to cart then continue shopping                                      &amp#27;[90m# src/test/resources/a10/CheckoutTest.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                                   &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m           &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                                   &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi go to cart&amp#27;[0m                                                               &amp#27;[90m# com.a10.steps.Automation.EtoESteps.go_to_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi checkout&amp#27;[0m                                                                 &amp#27;[90m# com.a10.steps.Automation.EtoESteps.checkout_click()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"123123"&amp#27;[0m&amp#27;[32m and lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Fajar"&amp#27;[0m&amp#27;[32m and zipcode &amp#27;[0m&amp#27;[32m&amp#27;[1m"41151"&amp#27;[0m    &amp#27;[90m# com.a10.steps.Automation.EtoESteps.enter_information(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe button should be grey and error message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Invalid First Name"&amp#27;[0m&amp#27;[31m shows up&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.CheckoutTestSteps.i_should_see_a_button_and_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.a10.steps.Automation.CheckoutTestSteps.i_should_see_a_button_and_message_saying(CheckoutTestSteps.java:50)
+	at âœ½.the button should be grey and error message "Invalid First Name" shows up(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/CheckoutTest.feature:13)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 55862
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:13:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:13:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:13:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:13:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Go to cart then continue shopping #2" classname="AUTOMATION TEST - Checkout Testing" time="2.871"/>
+  <testcase name="Go to cart then continue shopping #3" classname="AUTOMATION TEST - Checkout Testing" time="2.905">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[
+@homePage
+Scenario: Go to cart then continue shopping                                      &amp#27;[90m# src/test/resources/a10/CheckoutTest.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                                   &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m           &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                                   &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi go to cart&amp#27;[0m                                                               &amp#27;[90m# com.a10.steps.Automation.EtoESteps.go_to_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mi checkout&amp#27;[0m                                                                 &amp#27;[90m# com.a10.steps.Automation.EtoESteps.checkout_click()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hanri"&amp#27;[0m&amp#27;[32m and lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Fajar"&amp#27;[0m&amp#27;[32m and zipcode &amp#27;[0m&amp#27;[32m&amp#27;[1m"Bandung50"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.EtoESteps.enter_information(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe button should be grey and error message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Invalid Zip Code"&amp#27;[0m&amp#27;[31m shows up&amp#27;[0m   &amp#27;[90m# com.a10.steps.Automation.CheckoutTestSteps.i_should_see_a_button_and_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.a10.steps.Automation.CheckoutTestSteps.i_should_see_a_button_and_message_saying(CheckoutTestSteps.java:50)
+	at âœ½.the button should be grey and error message "Invalid Zip Code" shows up(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/CheckoutTest.feature:34)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 51699
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:13:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:13:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:13:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:13:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verifikasi tahapan menampilkan rincian produk, menambahkannya ke dalam keranjang" classname="AUTOMATION TEST - Details Testing" time="2.702"/>
+  <testcase name="Verifikasi tahapan menampilkan rincian produk,menambahkannya ke dalam keranjang ,and go back" classname="AUTOMATION TEST - Details Testing" time="2.774"/>
+  <testcase name="Verifikasi tahapan menampilkan rincian produk,menambahkannya ke dalam keranjang, menghapus dari keranjang ,and go back" classname="AUTOMATION TEST - Details Testing" time="2.717"/>
+  <testcase name="end-to-end testing" classname="AUTOMATION TEST - End-to-End Testing" time="3.103"/>
+  <testcase name="Menambah 6 produk" classname="AUTOMATION TEST - HomePage Testing" time="2.752"/>
+  <testcase name="menghapus 6 produk #1" classname="AUTOMATION TEST - HomePage Testing" time="2.75"/>
+  <testcase name="menghapus 6 produk #2" classname="AUTOMATION TEST - HomePage Testing" time="2.526"/>
+  <testcase name="[T0.0.1] Login successful with valid credentials" classname="AUTOMATION TEST - User Login" time="2.521"/>
+  <testcase name="[T0.0.3] Login with wrong password" classname="AUTOMATION TEST - User Login" time="2.351">
+    <failure message="Expected error message : &apos;Username and password do not match any user in this service!&apos; not found. Found: Epic sadface: Username and password do not match any user in this service" type="java.lang.AssertionError">java.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
+</failure>
+    <system-out><![CDATA[
+@hanriTest
+Scenario: [T0.0.3] Login with wrong password                                                        &amp#27;[90m# src/test/resources/a10/login.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                                                      &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongpass"&amp#27;[0m                                 &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                                                      &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"Username and password do not match any user in this service!"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(LoginSteps.java:74)
+	at âœ½.I should see a message saying "Username and password do not match any user in this service!"(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/login.feature:18)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 49205
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:14:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:14:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:14:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:14:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="[T0.0.2] Login with wrong username" classname="AUTOMATION TEST - User Login" time="2.418">
+    <failure message="Expected error message : &apos;Username and password do not match any user in this service!&apos; not found. Found: Epic sadface: Username and password do not match any user in this service" type="java.lang.AssertionError">java.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
+</failure>
+    <system-out><![CDATA[
+@hanriTest
+Scenario: [T0.0.2] Login with wrong username                                                        &amp#27;[90m# src/test/resources/a10/login.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                                                      &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m"ganteng2_bau"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongpass"&amp#27;[0m                                  &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                                                      &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"Username and password do not match any user in this service!"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(LoginSteps.java:74)
+	at âœ½.I should see a message saying "Username and password do not match any user in this service!"(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/login.feature:25)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 63672
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:14:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:14:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:14:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:14:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="[T0.0.4] Login with no password" classname="AUTOMATION TEST - User Login" time="2.353">
+    <failure message="Expected error message : &apos;You need Password !&apos; not found. Found: Epic sadface: Password is required" type="java.lang.AssertionError">java.lang.AssertionError: Expected error message : 'You need Password !' not found. Found: Epic sadface: Password is required
+</failure>
+    <system-out><![CDATA[
+@hanriTest
+Scenario: [T0.0.4] Login with no password                  &amp#27;[90m# src/test/resources/a10/login.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                             &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                             &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"You need Password !"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Expected error message : 'You need Password !' not found. Found: Epic sadface: Password is required
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(LoginSteps.java:74)
+	at âœ½.I should see a message saying "You need Password !"(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/login.feature:32)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 57051
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:14:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:14:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:14:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:14:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="[T0.0.5] Login with no username" classname="AUTOMATION TEST - User Login" time="2.382">
+    <failure message="Expected error message : &apos;You need Username !&apos; not found. Found: Epic sadface: Username is required" type="java.lang.AssertionError">java.lang.AssertionError: Expected error message : 'You need Username !' not found. Found: Epic sadface: Username is required
+</failure>
+    <system-out><![CDATA[
+@hanriTest
+Scenario: [T0.0.5] Login with no username                  &amp#27;[90m# src/test/resources/a10/login.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                             &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrongpass"&amp#27;[0m     &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                             &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"You need Username !"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Expected error message : 'You need Username !' not found. Found: Epic sadface: Username is required
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(LoginSteps.java:74)
+	at âœ½.I should see a message saying "You need Username !"(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/login.feature:39)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 56477
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:14:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:14:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:14:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:14:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="[T0.0.6] Login with nothing cuz im a dumbass" classname="AUTOMATION TEST - User Login" time="2.293">
+    <failure message="Expected error message : &apos;You need Username &amp; Password !&apos; not found. Found: Epic sadface: Username is required" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected error message : 'You need Username & Password !' not found. Found: Epic sadface: Username is required
+]]></failure>
+    <system-out><![CDATA[
+@hanriTest
+Scenario: [T0.0.6] Login with nothing cuz im a dumbass                &amp#27;[90m# src/test/resources/a10/login.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                        &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_am_on_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                         &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_enter_my_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                        &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"You need Username & Password !"&amp#27;[0m &amp#27;[90m# com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Expected error message : 'You need Username & Password !' not found. Found: Epic sadface: Username is required
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.a10.steps.Automation.LoginSteps.i_should_see_a_message_saying(LoginSteps.java:74)
+	at âœ½.I should see a message saying "You need Username & Password !"(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/login.feature:46)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 125.0.6422.141 (4b1e83937122185343ba92e909b021f307c719ca-refs/branch-heads/6422@{#1186}) on port 57265
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2024 6:14:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 01, 2024 6:14:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, so returning the closest version found: a no-op implementation
+Jun 01, 2024 6:14:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 125.
+Jun 01, 2024 6:14:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="[T0.1.1] Positive logout" classname="AUTOMATION TEST - User Logout" time="3.12"/>
+</testsuite>

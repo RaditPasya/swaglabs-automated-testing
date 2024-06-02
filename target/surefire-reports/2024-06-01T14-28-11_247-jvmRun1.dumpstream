@@ -1,0 +1,920 @@
+# Created at 2024-06-01T14:28:18.207
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-06-01T14:28:26.420
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a POST request to [0m[32m[1m"user/create"[0m                         [90m# com.a10.steps.createTestSteps.iMakeAPostRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:26.451
+Unexpected IOException with stream:   [32mThen [0m[32mthe status code should be [0m[32m[1m403[0m                                  [90m# com.a10.steps.createTestSteps.theStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:26.960
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"APP_ID_MISSING"[0m [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:26.966
+Unexpected IOException: 6,1,API TEST - CREATE,[TC 1] Missing APP_ID header(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:26.967
+Unexpected IOException: 5,1,API TEST - CREATE,[TC 2] Invalid APP_ID header(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:26.975
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:26.976
+Unexpected IOException with stream: Scenario: [TC 2] Invalid APP_ID header                                  [90m# src/test/resources/a10/createTest.feature:16[0m
+
+
+# Created at 2024-06-01T14:28:26.979
+Unexpected IOException with stream:   [32mGiven [0m[32mthe request body is[0m                                             [90m# com.a10.steps.createTestSteps.theRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:26.981
+Unexpected IOException with stream:   [32mAnd [0m[32mthe header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"663679b53fb5f584f811"[0m                     [90m# com.a10.steps.createTestSteps.theHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.308
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a POST request to [0m[32m[1m"user/create"[0m                           [90m# com.a10.steps.createTestSteps.iMakeAPostRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.311
+Unexpected IOException with stream:   [32mThen [0m[32mthe status code should be [0m[32m[1m403[0m                                    [90m# com.a10.steps.createTestSteps.theStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:27.322
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"APP_ID_NOT_EXIST"[0m [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.323
+Unexpected IOException: 6,1,API TEST - CREATE,[TC 2] Invalid APP_ID header(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:27.324
+Unexpected IOException: 5,1,API TEST - CREATE,[TC 3] Valid request with correct APP_ID(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:27.331
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:27.332
+Unexpected IOException with stream: Scenario: [TC 3] Valid request with correct APP_ID              [90m# src/test/resources/a10/createTest.feature:30[0m
+
+
+# Created at 2024-06-01T14:28:27.333
+Unexpected IOException with stream:   [32mGiven [0m[32mthe request body with random email is[0m                   [90m# com.a10.steps.createTestSteps.theRequestBodyWithRandomEmailIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.334
+Unexpected IOException with stream:   [32mAnd [0m[32mthe header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"66367c7b3ec826592a67a062"[0m         [90m# com.a10.steps.createTestSteps.theHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.676
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a POST request to [0m[32m[1m"user/create"[0m                   [90m# com.a10.steps.createTestSteps.iMakeAPostRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.678
+Unexpected IOException with stream:   [32mThen [0m[32mthe status code should be [0m[32m[1m200[0m                            [90m# com.a10.steps.createTestSteps.theStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:27.691
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"firstName"[0m[32m with value [0m[32m[1m"Azis"[0m [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.701
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"lastName"[0m[32m with value [0m[32m[1m"Suro"[0m  [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.701
+Unexpected IOException: 6,1,API TEST - CREATE,[TC 3] Valid request with correct APP_ID(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:27.702
+Unexpected IOException: 5,1,API TEST - CREATE,[TC 14] Missing firstName in request body(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:27.708
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:27.708
+Unexpected IOException with stream: Scenario: [TC 14] Missing firstName in request body                                           [90m# src/test/resources/a10/createTest.feature:45[0m
+
+
+# Created at 2024-06-01T14:28:27.710
+Unexpected IOException with stream:   [32mGiven [0m[32mthe request body is[0m                                                                   [90m# com.a10.steps.createTestSteps.theRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:27.712
+Unexpected IOException with stream:   [32mAnd [0m[32mthe header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"66367c7b3ec826592a67a062"[0m                                       [90m# com.a10.steps.createTestSteps.theHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.038
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a POST request to [0m[32m[1m"user/create"[0m                                                 [90m# com.a10.steps.createTestSteps.iMakeAPostRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.040
+Unexpected IOException with stream:   [32mThen [0m[32mthe status code should be [0m[32m[1m400[0m                                                          [90m# com.a10.steps.createTestSteps.theStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:28.048
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"BODY_NOT_VALID"[0m                         [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.058
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"data.firstName"[0m[32m with value [0m[32m[1m"Path `firstName` is required."[0m [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.059
+Unexpected IOException: 6,1,API TEST - CREATE,[TC 14] Missing firstName in request body(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:28.060
+Unexpected IOException: 5,1,API TEST - CREATE,[TC 5] Missing lastName in request body(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:28.065
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:28.066
+Unexpected IOException with stream: Scenario: [TC 5] Missing lastName in request body                                           [90m# src/test/resources/a10/createTest.feature:60[0m
+
+
+# Created at 2024-06-01T14:28:28.067
+Unexpected IOException with stream:   [32mGiven [0m[32mthe request body is[0m                                                                 [90m# com.a10.steps.createTestSteps.theRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.069
+Unexpected IOException with stream:   [32mAnd [0m[32mthe header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"66367c7b3ec826592a67a062"[0m                                     [90m# com.a10.steps.createTestSteps.theHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.394
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a POST request to [0m[32m[1m"user/create"[0m                                               [90m# com.a10.steps.createTestSteps.iMakeAPostRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.397
+Unexpected IOException with stream:   [32mThen [0m[32mthe status code should be [0m[32m[1m400[0m                                                        [90m# com.a10.steps.createTestSteps.theStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:28.405
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"BODY_NOT_VALID"[0m                       [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.414
+Unexpected IOException with stream:   [32mAnd [0m[32mthe response should contain [0m[32m[1m"data.lastName"[0m[32m with value [0m[32m[1m"Path `lastName` is required."[0m [90m# com.a10.steps.createTestSteps.theResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.415
+Unexpected IOException: 6,1,API TEST - CREATE,[TC 5] Missing lastName in request body(API TEST - CREATE),null,null,null
+
+
+# Created at 2024-06-01T14:28:28.417
+Unexpected IOException: 5,1,API TEST - DELETE,Missing APP_ID header(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:28.423
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:28.424
+Unexpected IOException with stream: Scenario: Missing APP_ID header                                              [90m# src/test/resources/a10/deleteTest.feature:3[0m
+
+
+# Created at 2024-06-01T14:28:28.424
+Unexpected IOException with stream:   [32mGiven [0m[32mthe DELETE header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m""[0m                                     [90m# com.a10.steps.deleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.426
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE request user ID is [0m[32m[1m"60d0fe4f5311236168a109fb"[0m               [90m# com.a10.steps.deleteTestSteps.theDELETERequestUserIDIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.601
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a DELETE request to [0m[32m[1m"60d0fe4f5311236168a109fb"[0m                 [90m# com.a10.steps.deleteTestSteps.iMakeADELETERequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.617
+Unexpected IOException with stream:   [31mThen [0m[31mthe DELETE status code should be [0m[31m[1m403[0m                                  [90m# com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:28.620
+Unexpected IOException with stream:       [31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <403> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(deleteTestSteps.java:57)
+	at âœ½.the DELETE status code should be 403(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/deleteTest.feature:7)
+[0m
+
+
+# Created at 2024-06-01T14:28:28.625
+Unexpected IOException with stream:   [36mAnd [0m[36mthe DELETE response should contain [0m[36m[1m"error"[0m[36m with value [0m[36m[1m"APP_ID_MISSING"[0m [90m# com.a10.steps.deleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.631
+Unexpected IOException: 8,1,API TEST - DELETE,Missing APP_ID header(API TEST - DELETE),null,1 expectation failed.\000AExpected status code <403> but was <404>.\000A,null,1 expectation failed.\000AExpected status code <403> but was <404>.\000A,1 expectation failed.\000AExpected status code <403> but was <404>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <403> but was <404>.\000A\000A
+
+
+# Created at 2024-06-01T14:28:28.631
+Unexpected IOException: 5,1,API TEST - DELETE,Invalid APP_ID header(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:28.637
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:28.637
+Unexpected IOException with stream: Scenario: Invalid APP_ID header                                                [90m# src/test/resources/a10/deleteTest.feature:10[0m
+
+
+# Created at 2024-06-01T14:28:28.638
+Unexpected IOException with stream:   [32mGiven [0m[32mthe DELETE header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"665acd2eb842083f9e37b048"[0m               [90m# com.a10.steps.deleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.640
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE request user ID is [0m[32m[1m"60d0fe4f5311236168a109fb"[0m                 [90m# com.a10.steps.deleteTestSteps.theDELETERequestUserIDIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.816
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a DELETE request to [0m[32m[1m"60d0fe4f5311236168a109fb"[0m                   [90m# com.a10.steps.deleteTestSteps.iMakeADELETERequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.818
+Unexpected IOException with stream:   [31mThen [0m[31mthe DELETE status code should be [0m[31m[1m403[0m                                    [90m# com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:28.820
+Unexpected IOException with stream:       [31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <403> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(deleteTestSteps.java:57)
+	at âœ½.the DELETE status code should be 403(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/deleteTest.feature:14)
+[0m
+
+
+# Created at 2024-06-01T14:28:28.822
+Unexpected IOException with stream:   [36mAnd [0m[36mthe DELETE response should contain [0m[36m[1m"error"[0m[36m with value [0m[36m[1m"APP_ID_NOT_EXIST"[0m [90m# com.a10.steps.deleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.823
+Unexpected IOException: 8,1,API TEST - DELETE,Invalid APP_ID header(API TEST - DELETE),null,1 expectation failed.\000AExpected status code <403> but was <404>.\000A,null,1 expectation failed.\000AExpected status code <403> but was <404>.\000A,1 expectation failed.\000AExpected status code <403> but was <404>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <403> but was <404>.\000A\000A
+
+
+# Created at 2024-06-01T14:28:28.824
+Unexpected IOException: 5,1,API TEST - DELETE,Valid request with correct APP_ID(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:28.830
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:28.830
+Unexpected IOException with stream: Scenario: Valid request with correct APP_ID                                         [90m# src/test/resources/a10/deleteTest.feature:17[0m
+
+
+# Created at 2024-06-01T14:28:28.831
+Unexpected IOException with stream:   [32mGiven [0m[32mthe DELETE header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"665acd2eb842083f9e37b048"[0m                    [90m# com.a10.steps.deleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:28.832
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE request user ID is [0m[32m[1m"60d0fe4f5311236168a109fb"[0m                      [90m# com.a10.steps.deleteTestSteps.theDELETERequestUserIDIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.006
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a DELETE request to [0m[32m[1m"60d0fe4f5311236168a109fb"[0m                        [90m# com.a10.steps.deleteTestSteps.iMakeADELETERequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.011
+Unexpected IOException with stream:   [31mThen [0m[31mthe DELETE status code should be [0m[31m[1m200[0m                                         [90m# com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:29.013
+Unexpected IOException with stream:       [31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(deleteTestSteps.java:57)
+	at âœ½.the DELETE status code should be 200(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/deleteTest.feature:21)
+[0m
+
+
+# Created at 2024-06-01T14:28:29.014
+Unexpected IOException with stream:   [36mAnd [0m[36mthe DELETE response should contain [0m[36m[1m"id"[0m[36m with value [0m[36m[1m"60d0fe4f5311236168a109fb"[0m [90m# com.a10.steps.deleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.015
+Unexpected IOException: 8,1,API TEST - DELETE,Valid request with correct APP_ID(API TEST - DELETE),null,1 expectation failed.\000AExpected status code <200> but was <404>.\000A,null,1 expectation failed.\000AExpected status code <200> but was <404>.\000A,1 expectation failed.\000AExpected status code <200> but was <404>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <200> but was <404>.\000A\000A
+
+
+# Created at 2024-06-01T14:28:29.016
+Unexpected IOException: 5,1,API TEST - DELETE,User ID does not exist(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:29.021
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:29.023
+Unexpected IOException with stream: Scenario: User ID does not exist                                                 [90m# src/test/resources/a10/deleteTest.feature:24[0m
+
+
+# Created at 2024-06-01T14:28:29.023
+Unexpected IOException with stream:   [32mGiven [0m[32mthe DELETE header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"665acd2eb842083f9e37b048"[0m                 [90m# com.a10.steps.deleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.024
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE request user ID is [0m[32m[1m"60d0fe4f5311236168a109f1"[0m                   [90m# com.a10.steps.deleteTestSteps.theDELETERequestUserIDIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.341
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a DELETE request to [0m[32m[1m"60d0fe4f5311236168a109f1"[0m                     [90m# com.a10.steps.deleteTestSteps.iMakeADELETERequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.342
+Unexpected IOException with stream:   [32mThen [0m[32mthe DELETE status code should be [0m[32m[1m404[0m                                      [90m# com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:29.353
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"RESOURCE_NOT_FOUND"[0m [90m# com.a10.steps.deleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.354
+Unexpected IOException: 6,1,API TEST - DELETE,User ID does not exist(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:29.355
+Unexpected IOException: 5,1,API TEST - DELETE,Invalid User ID format(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:29.358
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:29.358
+Unexpected IOException with stream: Scenario: Invalid User ID format                                               [90m# src/test/resources/a10/deleteTest.feature:31[0m
+
+
+# Created at 2024-06-01T14:28:29.359
+Unexpected IOException with stream:   [32mGiven [0m[32mthe DELETE header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"665acd2eb842083f9e37b048"[0m               [90m# com.a10.steps.deleteTestSteps.theDELETEHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.361
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE request user ID is [0m[32m[1m"0"[0m                                        [90m# com.a10.steps.deleteTestSteps.theDELETERequestUserIDIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.679
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a DELETE request to [0m[32m[1m"0"[0m                                          [90m# com.a10.steps.deleteTestSteps.iMakeADELETERequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.682
+Unexpected IOException with stream:   [32mThen [0m[32mthe DELETE status code should be [0m[32m[1m400[0m                                    [90m# com.a10.steps.deleteTestSteps.theDELETEStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:29.699
+Unexpected IOException with stream:   [32mAnd [0m[32mthe DELETE response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"PARAMS_NOT_VALID"[0m [90m# com.a10.steps.deleteTestSteps.theDELETEResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:29.701
+Unexpected IOException: 6,1,API TEST - DELETE,Invalid User ID format(API TEST - DELETE),null,null,null
+
+
+# Created at 2024-06-01T14:28:29.703
+Unexpected IOException: 5,1,API TEST - GET,[TC 1] Missing APP_ID header(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:29.712
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:29.713
+Unexpected IOException with stream: Scenario: [TC 1] Missing APP_ID header                                    [90m# src/test/resources/a10/getTest.feature:3[0m
+
+
+# Created at 2024-06-01T14:28:29.715
+Unexpected IOException with stream:   [32mGiven [0m[32mthe GET header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m""[0m                                     [90m# com.a10.steps.getTestSteps.theGETHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.037
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a GET request to [0m[32m[1m"60d0fe4f5311236168a10a00"[0m                 [90m# com.a10.steps.getTestSteps.iMakeAGetRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.038
+Unexpected IOException with stream:   [32mThen [0m[32mthe GET status code should be [0m[32m[1m403[0m                                  [90m# com.a10.steps.getTestSteps.theGETStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:30.047
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"APP_ID_MISSING"[0m [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.048
+Unexpected IOException: 6,1,API TEST - GET,[TC 1] Missing APP_ID header(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.048
+Unexpected IOException: 5,1,API TEST - GET,[TC 2] Invalid APP_ID header(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.053
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:30.053
+Unexpected IOException with stream: Scenario: [TC 2] Invalid APP_ID header                                      [90m# src/test/resources/a10/getTest.feature:9[0m
+
+
+# Created at 2024-06-01T14:28:30.054
+Unexpected IOException with stream:   [32mGiven [0m[32mthe GET header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"6635747e0de1363eba89ff1g"[0m               [90m# com.a10.steps.getTestSteps.theGETHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.363
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a GET request to [0m[32m[1m"60d0fe4f5311236168a10a00"[0m                   [90m# com.a10.steps.getTestSteps.iMakeAGetRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.365
+Unexpected IOException with stream:   [32mThen [0m[32mthe GET status code should be [0m[32m[1m403[0m                                    [90m# com.a10.steps.getTestSteps.theGETStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:30.373
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"APP_ID_NOT_EXIST"[0m [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.374
+Unexpected IOException: 6,1,API TEST - GET,[TC 2] Invalid APP_ID header(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.374
+Unexpected IOException: 5,1,API TEST - GET,[TC 3] Valid request with correct APP_ID(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.378
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:30.378
+Unexpected IOException with stream: Scenario: [TC 3] Valid request with correct APP_ID                               [90m# src/test/resources/a10/getTest.feature:15[0m
+
+
+# Created at 2024-06-01T14:28:30.381
+Unexpected IOException with stream:   [32mGiven [0m[32mthe GET header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"66367c7b3ec826592a67a062"[0m                    [90m# com.a10.steps.getTestSteps.theGETHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.727
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a GET request to [0m[32m[1m"60d0fe4f5311236168a10a00"[0m                        [90m# com.a10.steps.getTestSteps.iMakeAGetRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.728
+Unexpected IOException with stream:   [32mThen [0m[32mthe GET status code should be [0m[32m[1m200[0m                                         [90m# com.a10.steps.getTestSteps.theGETStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:30.739
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"id"[0m[32m with value [0m[32m[1m"60d0fe4f5311236168a10a00"[0m [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.749
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"firstName"[0m[32m with value [0m[32m[1m"Els"[0m               [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.759
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"lastName"[0m[32m with value [0m[32m[1m"Ijsseldijk"[0m         [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.759
+Unexpected IOException: 6,1,API TEST - GET,[TC 3] Valid request with correct APP_ID(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.760
+Unexpected IOException: 5,1,API TEST - GET,[TC 4] User ID not found(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.765
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:30.766
+Unexpected IOException with stream: Scenario: [TC 4] User ID not found                                            [90m# src/test/resources/a10/getTest.feature:23[0m
+
+
+# Created at 2024-06-01T14:28:30.766
+Unexpected IOException with stream:   [32mGiven [0m[32mthe GET header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"66367c7b3ec826592a67a062"[0m                 [90m# com.a10.steps.getTestSteps.theGETHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.848
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a GET request to [0m[32m[1m"60d0fe4f5311236168a109f1"[0m                     [90m# com.a10.steps.getTestSteps.iMakeAGetRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.850
+Unexpected IOException with stream:   [32mThen [0m[32mthe GET status code should be [0m[32m[1m404[0m                                      [90m# com.a10.steps.getTestSteps.theGETStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:30.862
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"RESOURCE_NOT_FOUND"[0m [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:30.863
+Unexpected IOException: 6,1,API TEST - GET,[TC 4] User ID not found(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.863
+Unexpected IOException: 5,1,API TEST - GET,[TC 5] Invalid User ID(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:30.867
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:30.867
+Unexpected IOException with stream: Scenario: [TC 5] Invalid User ID                                            [90m# src/test/resources/a10/getTest.feature:29[0m
+
+
+# Created at 2024-06-01T14:28:30.868
+Unexpected IOException with stream:   [32mGiven [0m[32mthe GET header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"66367c7b3ec826592a67a062"[0m               [90m# com.a10.steps.getTestSteps.theGETHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.188
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a GET request to [0m[32m[1m"0"[0m                                          [90m# com.a10.steps.getTestSteps.iMakeAGetRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.189
+Unexpected IOException with stream:   [32mThen [0m[32mthe GET status code should be [0m[32m[1m400[0m                                    [90m# com.a10.steps.getTestSteps.theGETStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:31.199
+Unexpected IOException with stream:   [32mAnd [0m[32mthe GET response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"PARAMS_NOT_VALID"[0m [90m# com.a10.steps.getTestSteps.theGETResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.200
+Unexpected IOException: 6,1,API TEST - GET,[TC 5] Invalid User ID(API TEST - GET),null,null,null
+
+
+# Created at 2024-06-01T14:28:31.203
+Unexpected IOException: 5,1,API TEST - PUT,Missing APP_ID header(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:31.207
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:31.208
+Unexpected IOException with stream: Scenario: Missing APP_ID header                                           [90m# src/test/resources/a10/putTest.feature:3[0m
+
+
+# Created at 2024-06-01T14:28:31.209
+Unexpected IOException with stream:   [32mGiven [0m[32mthe PUT header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m""[0m                                     [90m# com.a10.steps.putTestSteps.thePUTHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.210
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT request body is[0m                                             [90m# com.a10.steps.putTestSteps.thePUTRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.515
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a PUT request to [0m[32m[1m"60d0fe4f5311236168a109ff"[0m                 [90m# com.a10.steps.putTestSteps.iMakeAPUTRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.516
+Unexpected IOException with stream:   [32mThen [0m[32mthe PUT status code should be [0m[32m[1m403[0m                                  [90m# com.a10.steps.putTestSteps.thePUTStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:31.524
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"APP_ID_MISSING"[0m [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.526
+Unexpected IOException: 6,1,API TEST - PUT,Missing APP_ID header(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:31.527
+Unexpected IOException: 5,1,API TEST - PUT,Invalid APP_ID header(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:31.531
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:31.532
+Unexpected IOException with stream: Scenario: Invalid APP_ID header                                             [90m# src/test/resources/a10/putTest.feature:29[0m
+
+
+# Created at 2024-06-01T14:28:31.533
+Unexpected IOException with stream:   [32mGiven [0m[32mthe PUT header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"6635747e0de1363eba89ff1g"[0m               [90m# com.a10.steps.putTestSteps.thePUTHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.534
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT request body is[0m                                               [90m# com.a10.steps.putTestSteps.thePUTRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.838
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a PUT request to [0m[32m[1m"60d0fe4f5311236168a109ff"[0m                   [90m# com.a10.steps.putTestSteps.iMakeAPUTRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.840
+Unexpected IOException with stream:   [32mThen [0m[32mthe PUT status code should be [0m[32m[1m403[0m                                    [90m# com.a10.steps.putTestSteps.thePUTStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:31.849
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"error"[0m[32m with value [0m[32m[1m"APP_ID_NOT_EXIST"[0m [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.850
+Unexpected IOException: 6,1,API TEST - PUT,Invalid APP_ID header(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:31.850
+Unexpected IOException: 5,1,API TEST - PUT,Valid request with correct APP_ID(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:31.855
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:31.856
+Unexpected IOException with stream: Scenario: Valid request with correct APP_ID                                      [90m# src/test/resources/a10/putTest.feature:55[0m
+
+
+# Created at 2024-06-01T14:28:31.857
+Unexpected IOException with stream:   [32mGiven [0m[32mthe PUT header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"6635747e0de1363eba89ff1f"[0m                    [90m# com.a10.steps.putTestSteps.thePUTHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:31.857
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT request body is[0m                                                    [90m# com.a10.steps.putTestSteps.thePUTRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.184
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a PUT request to [0m[32m[1m"60d0fe4f5311236168a109ff"[0m                        [90m# com.a10.steps.putTestSteps.iMakeAPUTRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.185
+Unexpected IOException with stream:   [32mThen [0m[32mthe PUT status code should be [0m[32m[1m200[0m                                         [90m# com.a10.steps.putTestSteps.thePUTStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:32.196
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"id"[0m[32m with value [0m[32m[1m"60d0fe4f5311236168a109ff"[0m [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.204
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"firstName"[0m[32m with value [0m[32m[1m"Josefina"[0m          [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.214
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"lastName"[0m[32m with value [0m[32m[1m"Calvi"[0m              [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.215
+Unexpected IOException: 6,1,API TEST - PUT,Valid request with correct APP_ID(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:32.215
+Unexpected IOException: 5,1,API TEST - PUT,Valid request with full update(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:32.218
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:32.219
+Unexpected IOException with stream: Scenario: Valid request with full update                                         [90m# src/test/resources/a10/putTest.feature:70[0m
+
+
+# Created at 2024-06-01T14:28:32.221
+Unexpected IOException with stream:   [32mGiven [0m[32mthe PUT header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"6635747e0de1363eba89ff1f"[0m                    [90m# com.a10.steps.putTestSteps.thePUTHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.221
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT request body is[0m                                                    [90m# com.a10.steps.putTestSteps.thePUTRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.560
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a PUT request to [0m[32m[1m"60d0fe4f5311236168a109ff"[0m                        [90m# com.a10.steps.putTestSteps.iMakeAPUTRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.561
+Unexpected IOException with stream:   [32mThen [0m[32mthe PUT status code should be [0m[32m[1m200[0m                                         [90m# com.a10.steps.putTestSteps.thePUTStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:32.573
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"id"[0m[32m with value [0m[32m[1m"60d0fe4f5311236168a109ff"[0m [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.582
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"firstName"[0m[32m with value [0m[32m[1m"Josafina"[0m          [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.590
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT response should contain [0m[32m[1m"lastName"[0m[32m with value [0m[32m[1m"Calvi"[0m              [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.591
+Unexpected IOException: 6,1,API TEST - PUT,Valid request with full update(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:32.591
+Unexpected IOException: 5,1,API TEST - PUT,Invalid request with incorrect gender type(API TEST - PUT),null,null,null
+
+
+# Created at 2024-06-01T14:28:32.595
+Unexpected IOException with stream: 
+
+
+# Created at 2024-06-01T14:28:32.596
+Unexpected IOException with stream: Scenario: Invalid request with incorrect gender type                      [90m# src/test/resources/a10/putTest.feature:98[0m
+
+
+# Created at 2024-06-01T14:28:32.597
+Unexpected IOException with stream:   [32mGiven [0m[32mthe PUT header [0m[32m[1m"app-id"[0m[32m is [0m[32m[1m"6635747e0de1363eba89ff1f"[0m             [90m# com.a10.steps.putTestSteps.thePUTHeaderIs(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.597
+Unexpected IOException with stream:   [32mAnd [0m[32mthe PUT request body is[0m                                             [90m# com.a10.steps.putTestSteps.thePUTRequestBodyIs(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.935
+Unexpected IOException with stream:   [32mWhen [0m[32mI make a PUT request to [0m[32m[1m"60d0fe4f5311236168a109ff"[0m                 [90m# com.a10.steps.putTestSteps.iMakeAPUTRequestTo(java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.937
+Unexpected IOException with stream:   [31mThen [0m[31mthe PUT status code should be [0m[31m[1m400[0m                                  [90m# com.a10.steps.putTestSteps.thePUTStatusCodeShouldBe(int)[0m
+
+
+# Created at 2024-06-01T14:28:32.939
+Unexpected IOException with stream:       [31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor233.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.a10.steps.putTestSteps.thePUTStatusCodeShouldBe(putTestSteps.java:38)
+	at âœ½.the PUT status code should be 400(file:///D:/Kuliah/Semester%206/swaglabs-automated-testing/src/test/resources/a10/putTest.feature:107)
+[0m
+
+
+# Created at 2024-06-01T14:28:32.939
+Unexpected IOException with stream:   [36mAnd [0m[36mthe PUT response should contain [0m[36m[1m"error"[0m[36m with value [0m[36m[1m"BODY_NOT_VALID"[0m [90m# com.a10.steps.putTestSteps.thePUTResponseShouldContainWithValue(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2024-06-01T14:28:32.941
+Unexpected IOException: 8,1,API TEST - PUT,Invalid request with incorrect gender type(API TEST - PUT),null,1 expectation failed.\000AExpected status code <400> but was <200>.\000A,null,1 expectation failed.\000AExpected status code <400> but was <200>.\000A,1 expectation failed.\000AExpected status code <400> but was <200>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <400> but was <200>.\000A\000A
+
+
+# Created at 2024-06-01T14:28:32.956
+Unexpected IOException with stream: [32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+[32m[1m?[0m Share your Cucumber Report with your team at [36m[1m[4mhttps://reports.cucumber.io[0m          [32m[1m?[0m
+[32m[1m?[0m Activate publishing with one of the following:                                    [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m Environment variable:                            [36mCUCUMBER_PUBLISH_ENABLED[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m JUnit:                                           [36m@CucumberOptions[0m(publish = [36mtrue[0m) [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m More information at [36mhttps://cucumber.io/docs/cucumber/environment-variables/[0m      [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m Disable this message with one of the following:                                   [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+
+
+# Created at 2024-06-01T14:28:32.957
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.a10.tests.TestRunner,null,null,null
+
+

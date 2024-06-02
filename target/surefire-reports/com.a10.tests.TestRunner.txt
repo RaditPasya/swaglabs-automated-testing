@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.a10.tests.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 86.249 s <<< FAILURE! - in com.a10.tests.TestRunner
+Missing APP_ID header(API TEST - DELETE)  Time elapsed: 0.232 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <404>.
+
+
+Invalid APP_ID header(API TEST - DELETE)  Time elapsed: 0.2 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <404>.
+
+
+Valid request with correct APP_ID(API TEST - DELETE)  Time elapsed: 0.199 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+
+Invalid request with incorrect gender type(API TEST - PUT)  Time elapsed: 0.355 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+Go to cart then checkout with nothing cuz im broke fr fr(AUTOMATION TEST - Cart Testing)  Time elapsed: 12.324 s  <<< FAILURE!
+java.lang.AssertionError: It dont gotta show up dawg
+
+Go to cart then continue shopping #1(AUTOMATION TEST - Checkout Testing)  Time elapsed: 2.956 s  <<< FAILURE!
+java.lang.AssertionError
+
+Go to cart then continue shopping #3(AUTOMATION TEST - Checkout Testing)  Time elapsed: 2.905 s  <<< FAILURE!
+java.lang.AssertionError
+
+[T0.0.3] Login with wrong password(AUTOMATION TEST - User Login)  Time elapsed: 2.351 s  <<< FAILURE!
+java.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
+
+[T0.0.2] Login with wrong username(AUTOMATION TEST - User Login)  Time elapsed: 2.418 s  <<< FAILURE!
+java.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
+
+[T0.0.4] Login with no password(AUTOMATION TEST - User Login)  Time elapsed: 2.353 s  <<< FAILURE!
+java.lang.AssertionError: Expected error message : 'You need Password !' not found. Found: Epic sadface: Password is required
+
+[T0.0.5] Login with no username(AUTOMATION TEST - User Login)  Time elapsed: 2.382 s  <<< FAILURE!
+java.lang.AssertionError: Expected error message : 'You need Username !' not found. Found: Epic sadface: Username is required
+
+[T0.0.6] Login with nothing cuz im a dumbass(AUTOMATION TEST - User Login)  Time elapsed: 2.293 s  <<< FAILURE!
+java.lang.AssertionError: Expected error message : 'You need Username & Password !' not found. Found: Epic sadface: Username is required
+
